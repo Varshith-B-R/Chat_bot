@@ -1,0 +1,129 @@
+/* App.css */
+
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+/* Dark Mode Styles */
+.bg-dark {
+  background-color: #343541;
+}
+
+.text-dark {
+  color: #F7F7F8;
+}
+
+.bg-dark-header {
+  background-color: #1E1E1E;
+}
+
+.bg-dark-chat {
+  background-color: #2D2D2D;
+}
+
+.bg-dark-message {
+  background-color: #1E1E1E;
+}
+
+/* Light Mode Styles */
+.bg-light {
+  background-color: #f7f7f7;
+}
+
+.text-light {
+  color: #000;
+}
+
+.bg-light-header {
+  background-color: #e0e0e0;
+}
+
+.bg-light-chat {
+  background-color: #ffffff;
+}
+
+.bg-light-message {
+  background-color: #f0f0f0;
+}
+
+/* Container Styles */
+.h-screen {
+  height: 100vh;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+/* Chat Styles */
+.sessions-list {
+  overflow-y: auto;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.chat-history {
+  overflow-y: auto;
+  flex: 1;
+  padding: 10px;
+}
+
+/* Message Styles */
+.chat-question, .chat-answer {
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.chat-question {
+  background-color: var(--chat-question-bg);
+}
+
+.chat-answer {
+  background-color: var(--chat-answer-bg);
+}
+
+/* Button Styles */
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+/* Textarea Styles */
+.textarea {
+  border: 1px solid #3C3C3C;
+  border-radius: 5px;
+  padding: 10px;
+  resize: none;
+}
+
+/* Typing Indicator */
+.typing-indicator {
+  font-style: italic;
+  color: #888;
+}
+
